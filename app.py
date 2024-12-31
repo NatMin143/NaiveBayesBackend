@@ -1,3 +1,7 @@
+# This flask app file is the actual usage of the trained model and to implement it using the website made
+# This is the backend for the website, the website will get the text and the text will be send here and predict the text's sentiment
+# It then returns the result to the website
+
 from flask import Flask, request, jsonify
 import joblib
 from flask_cors import CORS
